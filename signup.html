@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - MeloMix</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify"> MeloMix</li>
+            <li><a href="index.html">Home</a></li>
+            
+            <li><a href="login.html">Login</a></li>
+            <li><div class="profile">
+                <img src="profile_pic.png" alt="Profile Picture">
+                <span class="username">Guest</span>
+            </div></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="ItemContainer">
+            <table>
+                <tr><td><h1>Sign Up</h1></td></tr>
+                <tr><td>Name</td><td><input type="text" name="name" id="name" placeholder="  e.g., 'John Smith'"></td></tr>
+                <tr><td>Email</td><td><input type="email" name="email" id="email"></td></tr>
+                <tr><td>Password</td><td><input type="pass" name="pass" id="pass"></td></tr>
+                <tr><td><button onclick="submitForm()">Submit</button></td></tr>
+            </table>
+        </div>
+    </div>
+    <script src="script1.js"></script>
+</body>
+</html>
